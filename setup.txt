@@ -1,0 +1,21 @@
+php bin/magento setup:install \
+--admin-firstname=Parker \
+--admin-lastname=Vu \
+--admin-email=vuhung2881999@gmail.com \
+--admin-user=admin \
+--admin-password='doras2tuti' \
+--base-url=https://local.domain.com \
+--base-url-secure=https://local.domain.com \
+--backend-frontname=admin \
+--db-host=magentomysql \
+--db-name=magento \
+--db-user=root \
+--db-password=root \
+--use-rewrites=1 \
+--language=en_US \
+--currency=USD \
+--timezone=America/New_York \
+--use-secure-admin=1 \
+--admin-use-security-key=1 \
+--session-save=files \
+--use-sample-data
