@@ -15,12 +15,13 @@
 
     - Tutorial Doc: [Docker for Magento 2 Development](https://www.magemodule.com/all-things-magento/magento-2-tutorials/docker-magento-2-development/)
 
+    - Change port 80 & 443 XAMPP: [How to Change Port 80 and Port 443 in XAMPP Server](https://www.youtube.com/watch?v=rbycmTTAiqI)
+
 - **Setup step**:
 
     - Step 1: Create folder for install project magento 2 *(We install it on ~/Desktop)*
 
             $ cd Desktop
-
             $ mkdir magento2
 
     - Step 2: In the folder created, we will clone and install the lastest project magento here *(Current magento 2.4)*
@@ -93,4 +94,4 @@
 
     - Connect to database container CLI:
 
-            $ docker exec -it mysql bash
+            $ docker exec -it magentomysql bash

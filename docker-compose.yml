@@ -27,7 +27,7 @@ services:
         container_name: magentomysql
         restart: always
         ports:
-          - "3307:3307"
+          - "3307:3306"
         environment:
           - MYSQL_ROOT_PASSWORD=root
           - MYSQL_DATABASE=magento
@@ -42,7 +42,7 @@ services:
           - PMA_USER=root
           - PMA_PASSWORD=root
         ports:
-          - "8080:80"
+          - "8028:80"
         links:
           - mysql:db
         depends_on:
