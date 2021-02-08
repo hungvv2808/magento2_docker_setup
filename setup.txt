@@ -1,3 +1,5 @@
+- First setup:
+
 php bin/magento setup:install \
 --admin-firstname=Parker \
 --admin-lastname=Vu \
@@ -19,3 +21,8 @@ php bin/magento setup:install \
 --admin-use-security-key=1 \
 --session-save=files \
 --use-sample-data
+
+- Replace https to http:
+bin/magento setup:store-config:set --base-url="http://local.domain.com"
+bin/magento setup:store-config:set --base-url-secure="http://local.domain.com"
+bin/magento cache:flush
