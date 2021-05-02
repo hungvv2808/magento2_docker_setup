@@ -2170,6 +2170,7 @@
                 "console",
                 "laminas"
             ],
+            "abandoned": "laminas/laminas-cli",
             "time": "2019-12-31T16:31:45+00:00"
         },
         {
